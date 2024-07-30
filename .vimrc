@@ -28,7 +28,7 @@ call plug#end()
 
 command! -bang -nargs=* F
   \ call fzf#vim#grep(
-  \   '/home/user/ripgrep-13.0.0-x86_64-unknown-linux-musl/rg --column --line-number --no-heading --color=always --smart-case -- '.shellescape(<q-args>), 1,
+  \   '/home/user/ripgrep-14.0.3-x86_64-unknown-linux-musl/rg --column --line-number --no-heading --color=always --smart-case -- '.shellescape(<q-args>), 1,
   \   fzf#vim#with_preview(), <bang>0)
 
 let g:fzf_layout = { 'window': { 'width': 1.0, 'height': 0.75, 'relative': v:true, 'yoffset': 1.0 } }
