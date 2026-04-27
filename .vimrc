@@ -6,14 +6,11 @@ colorscheme industry
 set colorcolumn=81
 highlight ColorColumn ctermbg=8
 
-
-"set expandtab
-
 set shiftwidth=2
-
-
 set tabstop=2
-
+set softtabstop=2
+set expandtab
+set smarttab
 
 set laststatus=2
 set statusline+=%F
